@@ -20,6 +20,7 @@ header {
   align-items: center;
 }
 
+/* This is the logo of Vera portfolio */
 header .logo {
   font-weight: 800;
   color: var(--primary);
