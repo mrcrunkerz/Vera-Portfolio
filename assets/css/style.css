@@ -2,12 +2,13 @@
 :root {
   --primary: #12bdff;
   --dark-primary: #1b1f24;
+  --nunito: "Nunito Sans", sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: var(--nunito);
   box-sizing: border-box;
 }
 
