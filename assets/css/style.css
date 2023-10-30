@@ -1,0 +1,61 @@
+/* Global Variables */
+:root {
+  --primary: #12bdff;
+  --dark-primary: #1b1f24;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: var(--dark-primary);
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: 4px;
+}
+header a {
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  padding-right: 30px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: var(--primary);
+}
+
+/* header > Button */
+header button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: var(--dark-primary);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
+}
+header button:hover {
+  color: #fff;
+  border-color: #fff;
+}
